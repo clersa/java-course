@@ -9,4 +9,8 @@ public class Animal implements Pet {
 	System.out.println(
 		String.format("%s say : %s", this.name, "beep"));
 	}
+
+	private boolean isHungry() {
+		return true;
+	}
 }
